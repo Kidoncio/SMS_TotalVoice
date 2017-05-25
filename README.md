@@ -14,7 +14,10 @@ Você pode conseguir o seu da seguinte maneira:
 - Crie a sua conta.
 
 Vale lembrar que, caso você possua apenas o Trial, você terá um limite de apenas 5 requisições por dia.
-Para sair do período Trial, basta simplesmente entrar em contato com a TotalVoice, e escanear o cartão CNPJ e o endereço.
+Para sair do período Trial, basta simplesmente entrar em contato com a TotalVoice e escanear o cartão CNPJ e o endereço.
 
 ### Demo
 [Clique aqui para ver uma demonstração](http://lapou.com.br/sms/)
+
+### Bibliotecas
+Caso queira, você pode utilizar as [bibliotecas disponibilizadas pela TotalVoice](https://github.com/totalvoice), e verificar [toda a documentação da API](https://api.totalvoice.com.br/doc/).
