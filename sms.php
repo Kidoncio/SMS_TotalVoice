@@ -29,7 +29,8 @@
     $resultado = enviaSMS($numero_destino, $mensagem, $access_token);
     $resultado = json_decode($resultado);
     ?>
-
+    
+    <!-- INÍCIO SWEETALERT2 -->
     <?php
     if ($resultado->{'sucesso'} == true ){ ?>
         <script>
@@ -53,7 +54,8 @@
         <?php
     }
     ?>
-
+    <!-- FIM SWEETALERT2 -->
+    
     <form action="index.php">
         <input type="submit" value="Voltar" id="submit"/>
     </form>
